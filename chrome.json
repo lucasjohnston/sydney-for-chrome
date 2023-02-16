@@ -5,10 +5,10 @@
   "short_name": "sydney",
   "description": "enable and default to bing chat in other browsers",
   "permissions": ["webRequest", "declarativeNetRequest"],
-  "host_permissions": ["*://bing.com/*"],
+  "host_permissions": ["http://*.bing.com/*", "https://*.bing.com/*"],
   "content_scripts": [
     {
-      "matches": ["*://bing.com/*"],
+      "matches": ["http://*.bing.com/*", "https://*.bing.com/*"],
       "js": ["syringe.js"]
     }
   ],
