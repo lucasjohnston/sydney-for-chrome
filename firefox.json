@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
   "version": "1.0",
-  "name": "sydney-for-chrome",
-  "short_name": "sydney",
+  "name": "Sydney (Bing Chat) for Firefox",
+  "short_name": "sydney-for-firefox",
   "description": "enable and default to bing chat in other browsers",
   "permissions": ["webRequest", "webRequestBlocking", "https://www.bing.com/*"],
   "background": {
