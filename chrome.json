@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "version": "1.0",
+  "name": "sydney-for-chrome",
+  "short_name": "sydney",
+  "description": "enable and default to bing chat in other browsers",
+  "permissions": ["webRequest", "declarativeNetRequest"],
+  "host_permissions": ["*://bing.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["*://bing.com/*"],
+      "js": ["syringe.js"]
+    }
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "1",
+        "enabled": true,
+        "path": "chrome_ua.json"
+      }
+    ]
+  },
+  "icons": {
+    "16": "16.png",
+    "48": "48.png",
+    "128": "128.png",
+    "512": "512.png",
+    "1024": "1024.png"
+  }
+}

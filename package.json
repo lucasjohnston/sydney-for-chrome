@@ -1,0 +1,9 @@
+{
+  "name": "sydney-for-chrome",
+  "description": "sydney (bing chat) for chrome and other browsers",
+  "version": "1.0",
+  "private": false,
+  "license": "MIT",
+  "scripts": {},
+  "dependencies": {}
+}
