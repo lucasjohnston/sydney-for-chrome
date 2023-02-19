@@ -4,7 +4,7 @@
   "name": "Sydney (Bing Chat) for Chrome",
   "short_name": "sydney-for-chrome",
   "description": "enable and default to bing chat in other browsers",
-  "permissions": ["webRequest", "declarativeNetRequest"],
+  "permissions": ["declarativeNetRequest"],
   "host_permissions": ["http://*.bing.com/*", "https://*.bing.com/*"],
   "content_scripts": [
     {
